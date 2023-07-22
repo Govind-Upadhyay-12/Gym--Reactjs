@@ -1,0 +1,107 @@
+.chart{
+    box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);  
+    .pricetag{
+        margin-top: -6rem;
+        margin-left: 1%;
+        background-color: white;
+        position: absolute;
+        width: 400px;
+        box-shadow:
+    inset 0 -3em 3em rgba(255, 254, 254, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(255, 255, 255, 0.3);  
+    border-radius: 15px;
+    // border:2px solid black;
+    height: 700px;
+    // border-radius: 10px;
+        .andar{
+            margin-left: 35px;
+            .begi{
+                h2{
+                    font-size: 40px;
+                    margin-left: 5rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    &:hover{
+                        color: red;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .price{
+                h2{
+                    font-size: 80px;
+                    margin-left: 1.3rem;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+}
+.dat{
+    h2{
+        font-size: 30px;
+        font-weight: 400;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 4.9rem;
+        // margin-left: 2re;
+    }
+}
+.ik{
+    img{
+    border-radius: 15px;
+    cursor: pointer;
+    }
+}
+.but:hover{
+    background-color: rgb(255, 0, 0);
+    color: aliceblue;
+    cursor:pointer;
+    transition: 0.7s;
+    
+
+}
+.but p{
+    font-weight: bolder;
+    font-size: 1.7rem;
+    padding-top: 9px;
+    padding-left: 0;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+.but{
+    position: absolute;
+    margin-top: 45px;
+    background-color: red;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    width: 290px;
+    height: 80px;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+.bord{
+    position: absolute;
+    margin-top:30px;
+    margin-left: 10px;
+    border: 3px dotted rgb(16, 1, 1);
+    width: 285px;
+    height: 75px;
+    border-radius: 10px;
+    margin-top: 18px;
+}
+.bord:hover{
+    margin-top: 45px;
+    margin-left: 0;
+    transition: 0.3s;
+}

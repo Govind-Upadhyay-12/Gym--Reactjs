@@ -1,0 +1,84 @@
+.me{
+    
+.mainhead{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    .items{
+        margin-top: 34px;
+        display: flex;
+        justify-content: space-between;
+        gap:10%;
+        list-style: none;
+        margin-left: -40px;
+        .home{
+            font-size: 27px;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            
+            
+        }
+    }
+    .tod{
+        margin-top: 34px;
+        // border: 2px solid black;
+        // display: flex;
+        width: 26%;
+        height: 70px;
+        position: relative;
+        .im{
+            position: absolute;
+            margin-left: 10%;
+            // border:2px solid black;
+
+        }
+        .imm{
+            position: absolute;
+            margin-left: 30%;
+            // background-color: white;
+        }
+        
+            .btn{
+                margin-top: -10px;
+                display: flex;
+                position: absolute;
+                margin-left: 50%;
+                height: 60px;
+                width: 280px;
+                font-size: 20px;
+                background: transparent;
+                color: white;
+                font-weight: bold;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                border: 1px solid white;
+                border-radius: 8px;
+                cursor:pointer;
+               .pl{
+                margin-top: 10px;
+                margin-left: 10px;
+               
+               }
+               .j{
+                margin-left: 15px;
+                margin-top: 10px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-size: 26px
+               }
+            }
+            
+
+        }
+       
+       
+
+    }
+    
+}
+.silde{
+    position: relative;
+}
+li:hover{
+    color: red;
+    
+}

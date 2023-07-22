@@ -1,0 +1,125 @@
+.bmi{
+    background-color: black;
+    margin-top: 13rem;
+    border-radius: 18rem 0px 12rem;
+
+    display: flex;
+    justify-content: space-around;
+    .bmicom{
+        margin-top: 2.9rem;
+        .theory{
+            h1{
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size:80px;
+                font-weight: bolder;
+                span{
+                    color: red;
+                }
+            }
+        }
+        .theodata{
+            margin-top: 1.6rem;
+            h2{
+
+                color: white;
+                font-size: 24px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 400;
+            }
+        }
+
+        
+
+    }
+    .input{
+        margin-top: 3.2rem;
+        display: flex;
+        gap:20%;
+        .weight{
+            .pehla{
+                // color: white;
+                height: 65px;
+                width: 260px;
+                font-size: 25px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-weight: 900;
+            }
+        }
+            .height{
+                .dusra{
+                    // color: white;
+                    height: 65px;
+                    width: 260px;
+                    font-size: 25px;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: 900;
+                    margin-left: 1rem;
+                }
+            
+
+        }
+        
+    }
+    .answer{
+        margin-top: 2.5%;
+        display: flex;
+        gap:15%;
+        .yourb{
+            
+            h2{
+                color: white;
+            font-size: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+        }
+        .weight{
+            margin-left: 1.2rem;
+            h2{
+                color: white;
+                font-size: 40px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                margin-left: 1.8rem;
+
+            }
+        }
+    }
+    .bt{
+        margin-top: 9%;
+        button{
+            height: 4rem;
+            width: 12rem;
+            cursor: pointer;
+            font-size: 1.9rem;
+            font-weight: bolder;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+            background-color: grey;
+            &:hover{
+            background-color: red;
+            transition: 0.5s;
+
+            }
+        }
+    }
+    .photo{
+        .smarty{
+            img{
+                border-radius: 90px 0px 90px 0px;
+                opacity: 50%;
+                filter: grayscale(50%);
+                &:hover{
+                    opacity: 100%;
+                   filter: grayscale(0%);
+                   transform: scale(1.1);
+                   transition: 0.7s;
+
+
+                }
+            }
+        }
+    }
+}
+.data{
+    color: red;
+}

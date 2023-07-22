@@ -1,0 +1,97 @@
+.mainn{
+    margin-top: 23%;
+    margin-left: 28%;
+     .red{
+        // position: relative;
+        margin-top: -18%;
+        margin-left: 13rem;
+        
+        .laali{
+
+        }
+        .featred{
+            position: absolute;
+            margin-top: -40px;
+            margin-left: 30px;
+            h2{
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 1.8rem;
+                margin-left: 14px;
+                margin-top: -10px;
+            }
+        }
+     }
+     .weare{
+        margin-top: 5%;
+        h1{
+            font-weight: 900;
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           font-size: 60px;
+           white-space: nowrap;
+        }
+
+     }
+     .lower{
+        margin-top: 5rem;
+        margin-left: -13rem;
+        gap:3%;
+        columns:gap 3%;
+        display: flex;
+        // flex-direction: row-reverse;
+        .image{
+           
+            .headin{
+                position: absolute;
+                margin-top: -10rem;
+                color: white;
+                margin-left: 40px;
+                h1{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 50px;
+                }
+            }
+            .log{
+                position: absolute;
+                margin-top: -16rem;
+                margin-left: 20px;
+                border: 3px solid white;
+            }
+            .weekly{
+                position: absolute;
+                margin-top: -60px;
+                color: white;
+                margin-left: 50px;
+
+                h2{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    word-spacing: 4px;
+
+                }
+            }
+            .redtem{
+                position: absolute;
+                margin-top: -70px;
+                margin-left: 20px;
+            }
+        }
+     }
+}
+.bouncer{
+    position: relative;
+    filter: grayscale(200%); 
+    transition: filter 0.3s ease; 
+    cursor: pointer;
+    opacity: 80%;
+    border-radius: 22px 0px 22px;
+    &:hover{
+        filter: grayscale(0%);
+        transition: filter 0.4s ease;
+        cursor: pointer;
+        opacity: 100%;
+        transform: scale(1.03);
+        transition: 0.7s;
+        
+    }
+
+}

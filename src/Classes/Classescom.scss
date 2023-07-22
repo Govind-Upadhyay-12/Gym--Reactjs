@@ -1,0 +1,101 @@
+.classes{
+    margin-top: 5rem;
+    margin-left: 10%;
+    
+    .clc{
+        margin-left: -15rem;
+    
+
+        .im{
+        
+        }
+        .bu{
+            position: absolute;
+            margin-top: -24.2rem;
+            margin-left: 1.2rem;
+            h1{
+                color: white;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 45px;
+            }
+        }
+        .red{
+            position: absolute;
+            background:red;
+            width: 90px;
+            height: 10px;
+            margin-top: -20.2rem;
+            border-radius: 10px;
+            margin-left: 1.2rem;
+            
+        }
+        .timg{
+            display: flex;
+            position: absolute;
+            margin-top: -15rem;
+            gap:5%;
+            white-space: nowrap;
+            .dor{
+                display: flex;
+                white-space: nowrap;
+                margin-left: 1.2rem;
+                white-space: nowrap;
+                gap:5%;
+                h2{
+                    color: white;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 30px;
+                }
+            }
+            .time{
+                h2{
+                    color: white;
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 30px;
+                }
+            }
+        }
+        .bt{
+            position: absolute;
+            margin-top: -8.2rem;
+            margin-left: 2rem;
+            .hn{
+                width: 17rem;
+                height: 4.5rem;
+                font-size: 30px;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                border-radius: 2px;
+                border: 2px solid white;
+                background-color: white;
+                cursor: pointer;
+                font-weight:bolder;
+                box-shadow:
+       inset 0 -3em 3em rgba(239, 236, 236, 0.1),
+        0 0 0 2px rgb(255, 255, 255),
+         0.3em 0.3em 1em rgba(13, 0, 0, 0.3);
+                &:hover{
+                    background: red;
+                    color: white;
+                    transform: scale(1.03);
+                    transition: ease 0.3s;
+
+                }
+                
+            }
+
+        }
+    }
+}
+
+
+.imge{
+     border-radius: 10px;
+     opacity: 85%;
+     filter: contrast(1);
+     cursor: pointer;
+}
+.imge:hover{
+    opacity: 100%;
+    transform: scale(1.03);
+    transition: ease 2s;
+}

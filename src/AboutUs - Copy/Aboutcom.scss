@@ -1,0 +1,42 @@
+.about_section{
+    display: flex;
+    margin-top: 18rem;
+    margin-left: 25%;
+    // border: 2px solid black;
+    // position: relative;
+    .t{
+        // position: absolute;
+        margin-top: 4rem;
+        margin-left: -7.2rem;
+        white-space: nowrap;
+        .teer{
+            // border: 4px solid black;
+
+        }
+        .his{
+            // margin-left: -3rem;
+            
+        h2{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 50px;
+                margin-left: -0.6rem;
+            }
+            h3{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 30px;
+                font-weight: 500;
+                margin-left: -0.6rem;
+            }
+        }
+    }
+    .galph{
+        margin-left: 2rem;
+        img{
+            border-radius: 10px;
+            box-shadow:
+    inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        }
+    }
+}

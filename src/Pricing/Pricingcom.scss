@@ -1,0 +1,51 @@
+.pricing{
+    margin-top: 10rem;
+    
+
+    .upper{
+        margin-left: 42%;
+        .redtemp{
+            .pric{
+                position: absolute;
+                margin-top: -3rem;
+                margin-left: 3.5rem;
+                h2{
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-weight: bolder;
+                    font-size: 30px;
+                    color: white;
+                }
+            }
+        }
+        .exclusive{
+            margin-top: 2rem;
+            h1{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 4.7rem;
+                word-spacing: 6px;
+                margin-left: -5rem;
+            }
+        }
+        .gym{
+            margin-left: -2.9rem;
+            margin-top: 1.2rem;
+            h2{
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 1.7rem;
+                word-spacing: 6px;
+                margin-left: -5.2rem; 
+                font-weight: 500;
+
+            }
+            .lef{
+                margin-left: 2.8rem;
+            }
+        }
+    }
+}
+.oee{
+    display: flex;
+    gap:3%;
+    margin-left: 20%;
+    // border:2px solid black;
+}
